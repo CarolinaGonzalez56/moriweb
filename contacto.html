@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://file.myfontastic.com/Nwb6mDPqsQPBfgNzGpX3ud/icons.css" rel="stylesheet">
+    <title>Contacto | MORI</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <a href="index.html"><img src="logoB.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">999-999-999</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Riviera Park - Nordelta</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="index.html" class="menu__link  ">Inicio</a></li>
+                <li class="menu__item">
+                    <a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__item">
+                    <a href="galeria.html" class="menu__link ">Galeria</a></li>
+                <li class="menu__item">
+                    <a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+                <li class="menu__item">
+                    <a href="novedades.html" class="menu__link">Novedades</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link">
+                    <span class="icon-facebook"></span>
+                </a>
+                <a href="" class="social-icon__link">
+                    <span class="icon-twitter"></span>
+                </a>
+                <a href="" class="social-icon__link">
+                    <span class="icon-mail"></span>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="contacto.jpg" alt="" class="banner__img">
+        <div class="banner__content">Dejanos un mensaje</div>
+    </section>
+    <main class="main">
+
+        <section class="group contact">
+            <h2 class="group__title">contáctanos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Informacion de contacto</h3>
+                    <p class="column__txt">Concretar una venta es importante, pero lograr la fidelidad de nuestros clientes es vital, haznos saber como podemos ayudarte!</p>
+                    <p class="column__txt"><span class="icon-phone"></span> Telefono 1 : 999-999-999</p>
+                    <p class="column__txt"><span class="icon-phone"></span> Telefono 2 : 999-999-999</p>
+                    <p class="column__txt"><span class="icon-location"></span> Riviera Park - Nordelta</p>
+                    <p class="column__txt"><span class="icon-mail"></span> moriprop@gmail.com</p>
+
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link">
+                            <span class="icon-facebook"></span>
+                        </a>
+                        <a href="" class="social-icon__link">
+                            <span class="icon-twitter"></span>
+                        </a>
+                        <a href="" class="social-icon__link">
+                            <span class="icon-mail"></span>
+                        </a>
+                    </div>
+
+                </div>
+                <form method="GET" action="respuesta.html" class="formulario column column--50">
+
+                    <label for="" class="formulario__label">Nombre</label>
+                    <input type="text" class="formulario__input-txt" name="nombre" required>
+                    <label for="" class="formulario__label">Correo</label>
+                    <input type="email" class="formulario__input-txt" name="correo" required>
+                    <label for="" class="formulario__label">Telefono</label>
+                    <input type="text" class="formulario__input-txt" name="telefono" required>
+
+                    <label for="" class="formulario__label">Mensaje</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    <input type="submit" class="btn formulario__btn" name="btn_enviar" value="Enviar">
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por que visitarnos?</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repudiandae, earum praesentium doloremque </p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactanos</h2>
+                <p class="column__txt">Riviera Park - Nordelta</p>
+                <p class="column__txt">Telefono: 15 5889-9285</p>
+                <p class="column__txt">moriprop@gmail.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes</h2>
+                <p class="column__txt">
+                    <a href="" class="icon-facebook">Facebook</a>
+                </p>
+                <p class="column__txt">
+                    <a href="" class="icon-twitter">Siguenos en Twitter</a>
+                </p>
+                <p class="column__txt">
+                    <a href="" class="icon-whatsapp">Escribemos</a>
+                </p>
+            </div>
+            <p class="copy">@2021 MORI | Todos los derechos reservados - Carolina Gonzalez
+            </p>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
